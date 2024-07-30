@@ -1,4 +1,5 @@
 FROM ubuntu:12.04
+LABEL org.opencontainers.image.authors="expert@slackarea.net"
 
 RUN echo "deb http://old-releases.ubuntu.com/ubuntu/ precise main" > /etc/apt/sources.list
 RUN apt-get update
